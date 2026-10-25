@@ -1,14 +1,14 @@
 <script setup>
-const colorMode = useColorMode()
+const colorMode = useColorMode();
 
 const isDark = computed({
   get() {
-    return colorMode.value === 'dark'
+    return colorMode.value === 'dark';
   },
   set(_isDark) {
-    colorMode.preference = _isDark ? 'dark' : 'light'
-  }
-})
+    colorMode.preference = _isDark ? 'dark' : 'light';
+  },
+});
 </script>
 
 <template>
@@ -18,6 +18,7 @@ const isDark = computed({
       color="neutral"
       class="fixed right-0 top-0 m-4"
       size="xl"
+      variant="ghost"
       @click="isDark = !isDark"
     />
 
@@ -26,4 +27,3 @@ const isDark = computed({
     </template>
   </ClientOnly>
 </template>
-

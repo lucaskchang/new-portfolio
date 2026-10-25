@@ -1,3 +1,5 @@
+import svgLoader from 'vite-svg-loader';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 
@@ -8,12 +10,13 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@pinia/nuxt',
     '@vueuse/nuxt',
+    'motion-v/nuxt',
   ],
   devtools: { enabled: true },
 
   app: {
     head: {
-      title: 'Nuxt Boilerplate',
+      title: 'Lucas Chang',
       htmlAttrs: {
         lang: 'en',
       },
@@ -28,6 +31,10 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
+
+  ui: {
+    colorMode: false,
+  },
 
   compatibilityDate: '2025-5-20',
 
