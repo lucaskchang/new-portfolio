@@ -10,7 +10,7 @@
     </div>
     <div class="flex flex-col w-5/6 lg:w-1/2 justify-center lg:h-full">
       <div class="min-h-96 lg:w-3/4">
-        <p class="text-3xl lg:text-4xl font-bold ">
+        <p class="text-3xl lg:text-4xl font-bold">
           Hi, I'm <span class="text-primary">
             <motion.svg
               viewBox="0 0 735 455"
@@ -87,7 +87,7 @@
           :style="image"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="hidden lg:block"
+          class="-translate-y-[1em] lg:translate-y-0 lg:block"
         >
           <motion.path
             d="M41.7235 6.97426C44.3821 7.0756 47.0407 7.17694 155.123 6.99575C263.205 6.81456 476.631 6.34778 586.062 6.19008C695.494 6.03238 694.463 6.19792 692.766 6.25921C691.069 6.3205 688.736 6.27254 575.05 9.04661C461.365 11.8207 236.397 17.4183 120.017 20.2218C3.63593 23.0253 2.65896 22.8652 7.39284 23.4739C12.1267 24.0825 22.6011 25.4649 125.565 24.6119C228.528 23.759 423.664 20.6289 523.374 18.883C623.084 17.1371 621.456 16.8702 617.038 17.1493C612.619 17.4284 605.46 18.2614 521.696 18.6081C437.932 18.9547 277.781 18.7896 209.577 20.2122C141.374 21.6348 169.973 24.65 266.514 24.8978C363.055 25.1456 526.672 22.5345 612.262 21.4029C697.852 20.2713 700.457 20.6982 701.148 20.8115C701.76 20.9117 697.838 20.6034 691.526 21.2459C686.567 21.7507 678.055 22.7216 631.411 24.9771C584.767 27.2326 500.252 30.7698 455.684 32.7575C411.115 34.7452 409.055 35.0763 406.664 35.1962C394.428 35.719 373.249 37.6388 362.956 39.0121C361.742 39.1576 360.765 38.9975 359.758 38.8325"
@@ -99,14 +99,14 @@
             :custom="6"
           />
         </motion.svg>
-        <p class="text-lg lg:text-2xl mt-2">
+        <p class="text-lg lg:text-2xl -translate-y-[1em] lg:translate-y-0 lg:mt-2">
           I'm a junior studying Civil Engineering and Urban Studies at Tufts University. I recently worked on the <a
             class="text-blue-500 hover:text-blue-700"
             href="https://halmarinternational.com/project/ggb-seismictretrofit/"
           >Golden Gate Seismic Retrofit</a> as a construction engineering intern at Halmar International.
         </p>
-        <p class="text-lg lg:text-2xl mt-2">
-          I have been an avid runner since middle school and am part of the Tufts University Cross Country and Track teams. In my free time, I enjoy exploring cities by transit, reading, and programming websites like this one.
+        <p class="text-lg lg:text-2xl -translate-y-[1em] mt-2 lg:translate-y-0">
+          Outside of class, I am part of the Tufts University Cross Country and Track teams. In my free time, I enjoy exploring cities by transit, reading, and programming websites like this one.
         </p>
       </div>
     </div>
